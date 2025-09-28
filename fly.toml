@@ -1,0 +1,10 @@
+app = "vyshno-ai"
+
+[build]
+  image = "dockerfile"
+
+[env]
+  PORT = "8080"
+
+[deploy]
+  release_command = ""
